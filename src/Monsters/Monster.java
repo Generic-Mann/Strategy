@@ -41,7 +41,7 @@ public abstract class Monster {
             System.out.println("Oh no! The creature has perished.");
             return false;
         }
-        System.out.println(this.toString());
+        System.out.println(this);
         return true;
     }
 
